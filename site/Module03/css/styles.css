@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding 0;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 700;
+  margin: 1em;
+}
+
+#header-nav {
+  border-radius: 0px;
+  border: 0px;
+  background-color: #f6b319;
+}
+
+.navbar-header a.navbar-brand {
+  font-weight: 700;
+  color: #557c3e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+#nav-list a {
+  color: #951c49;
+}
+
+.menuItem {
+  padding: 1em;
+  background-color: lightgray;
+  margin-bottom: 1em;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #facf6a;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #f6b319;
+}
